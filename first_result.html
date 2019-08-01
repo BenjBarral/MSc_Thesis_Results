@@ -3,6 +3,17 @@
 <a href="index.html">All results</a>
 
 <h1> Training example </h1>
+
+.thumbnail:hover {
+position:relative;
+top:-25px;
+left:-35px;
+width:500px;
+height:auto;
+display:block;
+z-index:999;
+}
+
 <table style="width:100%">
   <tr>
     <td></td>
@@ -13,7 +24,7 @@
   </tr>
   <tr>
     <th scope="row">Ground Truth</th>
-    <td><img src="Results/Appearance_input.png" alt="" border=3 height=256 width=256></img></td>
+    <td><img src="Results/Appearance_input.png" class="thumbnail" border=3 height=256 width=256></img></td>
     <td><img src="Results/Albedo_GT.png" alt="" border=3 height=256 width=256></img></td>
     <td><img src="Results/Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
     <td><img src="Results/EnvMap_GT.hdr" alt="" border=3 height=128 width=256></img></td>
