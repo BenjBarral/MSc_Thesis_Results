@@ -1,0 +1,71 @@
+
+<h1> <font size="+2"> R26-0 : Result semisupervised - new </font> </h1>
+<a href="index.html"><font size="+1">Homepage</font></a>
+<br>
+<h1> <font size="+3"> Plots of losses during training </font> </h1>
+<br>
+<h1> <font size="+1"> Details : </font> </h1>
+Trained with 18000 training samples (8000 with supervised loss, 10000 with unsupervised loss). For each face : 15 sampled envmaps with random rotation around Z axis.
+<br>
+<br>
+<a href="Result_08-29_19_test_full_size.html"> <font size="+3"> Testing results </font> </a>
+</br>
+<a href="Result_08-29_19_supervised_train_full_size.html"> <font size="+3"> Training results </font> </a>
+</br>
+</br>
+</br>
+
+<h1> <font size="+2"> 1<sup>st</sup> phase : Fully supervised training (8000 samples) : </font> </h1>
+</br>
+<h1> <font size="+1"> Training loss supervised (L2 all intrinsics) : L<sub>A</sub>  </font> </h1> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> L<sub>A</sub> <img src="RESULTS/Result_08-29_19//GENERATOR_total_loss.svg" alt="" border=1></img></div>
+</br>
+</br>
+<h1> <font size="+1"> Testing loss </font> </h1> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> Testing loss <img src="RESULTS/Result_08-29_19//Testing_loss_1stphase.svg" alt="" border=1></img></div>
+</br>
+</br>
+
+<h1> <font size="+2"> 2<sup>nd</sup> phase : Semi supervised training (10000 unsupervised samples) : </font> </h1>
+</br>
+<h1> <font size="+1"> Total training loss : &lambda;<sub>A</sub> L<sub>A</sub> + &lambda;<sub>B</sub> L<sub>B </sub> </font> </h1> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> &lambda;<sub>A</sub> L<sub>A</sub> + &lambda;<sub>B</sub> L<sub>B</sub> <img src="RESULTS/Result_08-29_19//TRAINING_total_loss.svg" alt="" border=1></img></div>
+</br>
+</br>
+
+<h1> <font size="+1"> Testing loss </font> </h1> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> Testing loss <img src="RESULTS/Result_08-29_19//TESTING_loss.svg" alt="" border=1></img></div>
+</br>
+</br>
+
+<h1> <font size="+1"> Training loss unsupervised (L2 only appearance) : L<sub>B</sub>  </font> </h1> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> L<sub>B</sub>  <img src="RESULTS/Result_08-29_19//UNSUP___generator_training_loss.svg" alt="" border=1></img></div>
+</br>
+</br>
+
+<h1> <font size="+1"> Training loss supervised (L2 all intrinsics) : L<sub>A</sub>  </font> </h1> 
+L<sub>A</sub> = &lambda;<sub>app</sub> L<sub>app</sub> + &lambda;<sub>alb</sub> L<sub>alb</sub> + &lambda;<sub>nor</sub> L<sub>nor</sub> + &lambda;<sub>env</sub> L<sub>env</sub> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> L<sub>A</sub>  <img src="RESULTS/Result_08-29_19//SUP___generator_loss.svg" alt="" border=1></img></div>
+</br>
+</br>
+
+<h1> <font size="+1"> Loss albedo (supervised) : L<sub>alb</sub>  </font> </h1> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> L<sub>alb</sub>  <img src="RESULTS/Result_08-29_19//SUP___albedo_loss.svg" alt="" border=1></img></div>
+</br>
+</br>
+
+<h1> <font size="+1"> Loss normal (supervised) : L<sub>nor</sub>  </font> </h1> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> L<sub>nor</sub>  <img src="RESULTS/Result_08-29_19//SUP___normal_loss.svg" alt="" border=1></img></div>
+</br>
+</br>
+
+<h1> <font size="+1"> Loss envmap (supervised) : L<sub>env</sub>  </font> </h1> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> L<sub>env</sub>  <img src="RESULTS/Result_08-29_19//SUP___envmap_loss.svg" alt="" border=1></img></div>
+</br>
+</br>
+
+<h1> <font size="+1"> Loss appearance (supervised) : L<sub>app</sub>  </font> </h1> 
+<div style="margin: 0 600;width: 512px;text-align:center;"> L<sub>app</sub>  <img src="RESULTS/Result_08-29_19//SUP___appearance_loss.svg" alt="" border=1></img></div>
+</br>
+</br>
+

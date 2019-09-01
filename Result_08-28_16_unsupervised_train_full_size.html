@@ -1,0 +1,1157 @@
+
+<h1> <font size="+2"> R25-0 : Result semisupervised - Diversity loss (first try) </font> </h1>
+<a href="index.html"><font size="+1">Homepage</font></a>
+<br>
+<h1> <font size="+3"> Training results : samples with UNSUPERVISED LOSS (<a href="Result_08-28_16_unsupervised_train_reduced_size.html">Smaller size</a>) </font> </h1>
+<br>
+<h1> <font size="+1"> Details : </font> </h1>
+Trained with 18000 training samples (8000 with supervised loss, 10000 with unsupervised loss). For each face : 15 sampled envmaps with random rotation around Z axis.
+<br>
+<br>
+<a href="Result_08-28_16_test_full_size.html"> <font size="+3"> Testing results </font> </a>
+</br>
+<a href="Result_08-28_16_supervised_train_full_size.html"> <font size="+3"> Training results : samples with SUPERVISED LOSS </font> </a>
+</br>
+<a href="Result_08-28_16_losses_plots.html"> <font size="+3"> Plots of losses </font> </a>
+</br>
+
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F0 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_0_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_0_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_0_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_0_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_0_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_0_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_0_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F1 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_1_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_1_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_1_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_1_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_1_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_1_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_1_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F2 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_2_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_2_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_2_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_2_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_2_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_2_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_2_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F3 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_3_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_3_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_3_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_3_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_3_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_3_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_3_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F4 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_4_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_4_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_4_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_4_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_4_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_4_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_4_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F5 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_5_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_5_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_5_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_5_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_5_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_5_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_5_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F6 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_6_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_6_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_6_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_6_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_6_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_6_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_6_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F7 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_7_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_7_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_7_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_7_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_7_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_7_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_7_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F8 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_8_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_8_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_8_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_8_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_8_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_8_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_8_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F9 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_9_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_9_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_9_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_9_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_9_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_9_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_9_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F10 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_10_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_10_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_10_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_10_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_10_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_10_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_10_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F11 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_11_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_11_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_11_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_11_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_11_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_11_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_11_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F12 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_12_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_12_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_12_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_12_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_12_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_12_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_12_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F13 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_13_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_13_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_13_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_13_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_13_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_13_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_13_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F14 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_14_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_14_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_14_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_14_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_14_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_14_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_14_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F15 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_15_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_15_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_15_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_15_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_15_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_15_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_15_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F16 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_16_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_16_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_16_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_16_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_16_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_16_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_16_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F17 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_17_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_17_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_17_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_17_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_17_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_17_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_17_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F18 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_18_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_18_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_18_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_18_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_18_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_18_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_18_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F19 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_19_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_19_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_19_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_19_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_19_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_19_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_19_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F20 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_20_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_20_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_20_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_20_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_20_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_20_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_20_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F21 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_21_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_21_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_21_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_21_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_21_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_21_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_21_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F22 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_22_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_22_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_22_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_22_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_22_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_22_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_22_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F23 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_23_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_23_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_23_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_23_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_23_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_23_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_23_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F24 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_24_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_24_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_24_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_24_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_24_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_24_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_24_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F25 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_25_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_25_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_25_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_25_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_25_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_25_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_25_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F26 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_26_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_26_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_26_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_26_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_26_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_26_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_26_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F27 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_27_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_27_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_27_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_27_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_27_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_27_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_27_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F28 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_28_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_28_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_28_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_28_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_28_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_28_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_28_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
+    <table style="width:100%">
+        <br>
+        <h1> <fontsize = "+3"> F29 </font> </h1>
+        <tr>
+            <th scope="row"><div style="margin: 0 50">Input</th></div>
+            <td>
+                <div style="margin: 0 450;width: 256px;text-align:center;">
+                 Synthesized appearance<img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_29_Appearance_GT.png" alt="Synthesized appearance" align="middle" border=3 height=256 width=256 /> </img>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+            <table style="width:100%">
+          <tr>
+            <td></td>
+            <th scope ="col">Appearance</th>
+            <th scope ="col">Albedo</th>
+            <th scope ="col">Normal</th> 
+            <th scope ="col">EnvMap</th>
+          </tr>
+          <tr>
+            <th scope="row">Output</th>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_29_Appearance_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_29_Albedo_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_29_Normal_result.png" alt="" border=3 height=256 width=256></img></td>
+            <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_29_EnvMap_result.png" alt="" border=3 height=128 width=256></img></td>
+          </tr>
+          <tr>
+              <th scope="row">Ground Truth</th>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_29_Appearance_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=256 width=256></img></td>
+              <td><img src="RESULTS/Result_08-28_16/Training/Unsupervised/sample_29_Normal_GT.png" alt="" border=3 height=256 width=256></img></td>
+              <td><img alt="" border=3 height=128 width=256></img></td>
+          </tr>
+        </table>
+        </br> 
+            
